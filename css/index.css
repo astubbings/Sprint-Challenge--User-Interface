@@ -71,9 +71,11 @@ p {
     margin: 0 auto;
 }
 
+/* -----------  START MY CODE */
 .headerContainer {
     margin-top: 30px;
     margin-bottom: 30px;
+    border-bottom-style: dotted;
 }
 
 .navcontainer {
@@ -99,11 +101,19 @@ nav a {
     border-bottom: 1px dashed black;
 }
 
+.top-content .text-container-about {
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -131,6 +141,40 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+
+
+.aboutContainerMid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutBoxesMid {
+    width:350px;
+	margin-right: 50px;
+	text-emphasis: wrap;
+}
+
+.aboutBoxesMid h2 {
+
+}
+
+.aboutButton{
+    background-color: white;
+  
+    padding: 12px 24px;
+
+    margin-top:10px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+
+
+}
+
 
 .bottom-content {
     display: flex;

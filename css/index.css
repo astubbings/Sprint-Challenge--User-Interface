@@ -113,6 +113,38 @@ nav a {
 }
 
 
+.middle-content .boxes .box.one {
+    background-color: teal;
+}
+
+.middle-content .boxes .box.two {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.three {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box.four {
+    background-color: coral;
+}
+.middle-content .boxes .box.five {
+    background-color: crimson;
+}
+.middle-content .boxes .box.six {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box.seven {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box.eight {
+    background-color: hotpink;
+}
+.middle-content .boxes .box.nine {
+    background-color: indigo;
+}
+.middle-content .boxes .box.ten {
+    background-color: dodgerblue;
+}
 
 
 .middle-content {
@@ -134,7 +166,6 @@ nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;

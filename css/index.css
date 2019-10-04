@@ -71,12 +71,24 @@ p {
     margin: 0 auto;
 }
 
-nav {
+.headerContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navcontainer {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    margin-right: 30px;
+
 }
 
 nav a {
-    justify-content: space-between;
+    font-size: 12pt;
+	color: black;
+	text-decoration: none;
 }
 
 .top-content {
